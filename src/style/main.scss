@@ -1,0 +1,23 @@
+/*Base*/
+@import 'partials/base/variables';
+@import 'partials/base/normalize.css';
+@import 'partials/base/typography';
+@import 'partials/base/base';
+
+/*Components*/
+@import 'partials/components/fonts';
+@import 'partials/components/buttons';
+@import 'partials/components/section';
+@import 'partials/components/navbar';
+@import 'partials/components/cards';
+@import 'partials/components/forms';
+@import 'partials/components/breadcrumbs';
+@import 'partials/components/pagination';
+
+/*Layout*/
+@import 'partials/layout/header';
+@import 'partials/layout/common';
+@import 'partials/layout/footer';
+
+/*Include Media*/
+@import 'media';
