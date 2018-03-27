@@ -1,5 +1,5 @@
 
-//$gray:               #999;
+$gray:               #22252a;
 //$black:              #1f1f1f;
 //$white:              #fff;
 //$blue:               #5b759e;
@@ -7,13 +7,14 @@
 $base-font-sans-serif:        'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 
  //Body
-//$base-text-color:             #261e38 !default;
-//$base-background-color:       linear-gradient(135deg, #333047, #312e44) !default;
-//$background-color-box:        #3a3650 !default;
+$base-text-color:               #22252a !default;
+$base-background-color:         #f3f5ff;
+$background-color-white:        #3a3650;
+$background-color-blue:         linear-gradient(15deg, #1654e0 0%, #0b60f0 50%, #006cff 100%);
 
 
  //Liks
-//$base-link-color:             $blue;
+$base-link-color:             $gray;
 //$base-link-hover-color:       $black;
 
 
