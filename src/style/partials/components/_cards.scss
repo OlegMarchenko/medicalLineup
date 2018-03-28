@@ -83,6 +83,8 @@
   margin: 0 -15px;
   > div {
     margin: 0 15px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -104,9 +106,9 @@
   display: flex;
   flex-wrap: wrap;
   > div {
-    margin: 0 -15px;
     display: flex;
-    width: 100%;
+    min-width: 100%;
+    justify-content: space-between;
     &:first-child {
       margin-bottom: 30px;
     }
@@ -114,8 +116,7 @@
 }
 
 .card-tech {
-  flex-basis: 50%;
-  margin: 0 15px;
+  flex-basis: calc(50% - 15px);
   display: flex;
   > div {
     display: flex;
@@ -139,7 +140,7 @@
   }
 }
 .card-tech-inner {
-  flex-basis: 33.333%;
+  flex-basis: calc(33.3334% - 20px);
   flex-direction: column;
   > div {
     padding: 25px 15px;
@@ -153,6 +154,24 @@
       > div:first-child {
         margin-bottom: 30px;
       }
+    }
+  }
+}
+
+.holder-standards {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  > div {
+    flex-basis: calc(33.333% - 20px);
+    background: $background-color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      color: $light-gray;
+      font-size: 20px;
     }
   }
 }
