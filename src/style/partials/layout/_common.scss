@@ -14,7 +14,44 @@
 body {
   background: $base-background-color;
   color: $base-text-color;
+  font-family: $base-font-sans-serif;
+  font-weight: 400;
 }
 
 /*MAIN PAGE*/
 
+.main-desc {
+  max-width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: flex-end;
+  align-items: center;
+  background: url("../img/backgrounds/iphone-plus-black.png") left center no-repeat;
+  height: calc(100vh - 134px);
+}
+
+.holder-description {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+/*section-functionality*/
+
+.section-functionality {
+  background: $background-color-white;
+}
+
+
+/*========================*/
+
+/*section-developing*/
+
+.section-developing {
+  background: $background-color-blue;
+}
+
+/*==================*/

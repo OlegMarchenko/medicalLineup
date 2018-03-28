@@ -1,3 +1,15 @@
 .footer {
+  margin-top: 500px;
   flex: 0 0 auto;
+  background: $background-color-blue;
+  color: $white;
+  padding: 38px 0;
+  a {
+    color: $white;
+  }
+}
+
+.copyright {
+  flex-basis: 25%;
+  text-align: right;
 }

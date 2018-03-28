@@ -1,0 +1,18 @@
+.default-btn {
+  color: $btn-color;
+  background: $btn-background;
+  border-radius: $btn-border-radius;
+  width: 170px;
+  height: 43px;
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  border: $btn-border-blue;
+  transition: .3s all;
+  &:hover {
+    color: $gray;
+    background: $btn-hover-background;
+    border: $btn-border-black;
+  }
+}

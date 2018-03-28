@@ -1,0 +1,158 @@
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 37px 0;
+  text-align: center;
+  flex-basis: 25%;
+  .card-top {
+    margin-bottom: 8px;
+  }
+  .card-bottom {
+    text-align: center;
+    max-width: 168px;
+    margin: 0 auto;
+  }
+}
+
+.card-dignity {
+  display: flex;
+  margin-bottom: 30px;
+  > div {
+    flex-basis: 50%;
+  }
+  .card-right {
+    padding: 32px 90px;
+    background: $background-color-white;
+  }
+  .card-left {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &:last-child {
+    margin-bottom: 60px;
+  }
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.list-dignity {
+  li {
+    padding-left: 32px;
+    margin-bottom: 14px;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 14px;
+      border: solid #34d856;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      top: 7px;
+      left: 0;
+    }
+    &:last-child {
+      margin: 0;
+    }
+    ul li {
+      padding: 0;
+      margin-bottom: 3px;
+      &::before {
+        content: none;
+      }
+    }
+  }
+  p {
+    margin-bottom: 14px;
+  }
+}
+
+/*section technologies*/
+
+.stack-technology {
+  display: flex;
+  margin: 0 -15px;
+  > div {
+    margin: 0 15px;
+  }
+}
+
+.technologies {
+  flex-basis: 75%;
+}
+
+.technology-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.standards {
+  flex-basis: 25%;
+}
+
+.holder-technology {
+  display: flex;
+  flex-wrap: wrap;
+  > div {
+    margin: 0 -15px;
+    display: flex;
+    width: 100%;
+    &:first-child {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.card-tech {
+  flex-basis: 50%;
+  margin: 0 15px;
+  display: flex;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px 15px;
+    &:first-child {
+      flex-basis: 48%;
+      background: $background-color-blue;
+    }
+    &:last-child {
+      flex-basis: 52%;
+      background: $background-color-white;
+    }
+  }
+  span {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.card-tech-inner {
+  flex-basis: 33.333%;
+  flex-direction: column;
+  > div {
+    padding: 25px 15px;
+    &:first-child {
+      flex-basis: 30%;
+    }
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 70%;
+      > div:first-child {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

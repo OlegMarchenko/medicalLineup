@@ -1,72 +1,32 @@
 
-$gray:               #22252a;
+$gray:                 #22252a;
 //$black:              #1f1f1f;
-//$white:              #fff;
+$white:                #fff;
 //$blue:               #5b759e;
 
-$base-font-sans-serif:        'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$base-font-sans-serif:        'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 
  //Body
 $base-text-color:               #22252a !default;
 $base-background-color:         #f3f5ff;
-$background-color-white:        #3a3650;
 $background-color-blue:         linear-gradient(15deg, #1654e0 0%, #0b60f0 50%, #006cff 100%);
+$background-color-white:        #fff;
 
 
  //Liks
-$base-link-color:             $gray;
+$base-link-color:               $gray;
 //$base-link-hover-color:       $black;
 
 
 // Buttons
-//$btn-color:                         #261e38 !default;
-//$btn-background:                    $gray !default;
-//$btn-border:                        1px solid $black;
+$btn-color:                           $white;
+$btn-background:                      #026afc;
+$btn-hover-background:                transparent;
+$btn-border-radius:                   22px;
+$btn-border-black:                    1px solid #000;
+$btn-border-blue:                     1px solid #026afc;
 //$btn-padding:                       4px 10px !default;
 //$btn-font-size:                     $font-size-base - 2 !default;
 //$btn-line-height:                   $font-size-base + 1;
 
-// hover
-//$btn-hover-background:              $black !default;
-//$btn-hover-color:                   $white !default;
 
-// Forms
-//$input-font-size:                   $btn-font-size; // font size for forms elements
-//$input-line-height:                 $btn-line-height; // line height for forms elements
-//$input-padding:                     $btn-padding !default; // padding for forms elements
-//$input-border:                      1px solid $black !default; // border for forms elements
-//$input-border-radius:               0 !default; // border radius for forms elements
-//$input-height:                      $font-size-base + 14px; // height for forms elements
-
-//submit
-//$submit-background:                 $btn-background;
-//$submit-color:                      $btn-color;
-//$submit-height:                     $input-height;
-//$submit-border:                     $btn-border;
-//$submit-padding:                    $input-padding;
-//$submit-font-size:                  $input-font-size;
-
-//$submit-line-height:                $input-line-height;
-// submit hover
-//$submit-hover-background:           $btn-hover-background; // submit background hover
-//$submit-hover-color:                $btn-hover-color; // submit color hover
-
-//focus
-//$input-focus-border-color:          $black !default; // border color for forms elements
-
-//placeholder
-//$placeholder-color:                 $gray !default;
-
-// select
-//$select-height:                     $input-height;
-//$select-border:                     $input-border;
-//$select-padding:                    $input-padding;
-//$select-font-size:                  $input-font-size;
-//$select-line-height:                $input-line-height;
-
-// nav
-//$nav-color:                         $black;
-//$mobile-nav-drop-bg:                $black;
-//$mobile-nav-drop-color:             $white;
-
-//$animation-speed:                   0.3s;
